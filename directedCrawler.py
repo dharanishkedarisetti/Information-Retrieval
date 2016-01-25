@@ -46,7 +46,7 @@ while(len(unVisited)>0 and len(URLlist)<1000):
     # taking the FIRST element of the unVisited URL list
     #done so that the pages with lesser hops are checked first
     url=unVisited.pop(0)
-    #if the page has laready been added to URL list, skip the URL
+    #if the page has already been added to URL list, skip the URL
     if(url in URLlist):
         continue
     #Checking the level of the page
